@@ -74,8 +74,8 @@ blog_app_url = "https://socialblogapp.netlify.app"
 
 # Add a button to navigate to the Blogging social app
 if st.button("Go to Blog App"):
-    st.markdown(f"[Go to Blog App]({https://socialblogapp.netlify.app})")
+   st.markdown(f"[Go to Blog App](https://socialblogapp.netlify.app)")
 
 # Add an Acknowledgment button to navigate back to the Blogging social app
 if st.button("Acknowledge", key='ack_button'):
-    st.markdown(f"[Go back to Blog App]({https://socialblogapp.netlify.app})")
+    st.markdown(f"[Go to Blog App](https://socialblogapp.netlify.app)")
