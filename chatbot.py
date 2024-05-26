@@ -69,13 +69,8 @@ if st.button('Send') and prompt:
         # Display LLaMA2 response
         st.session_state.messages.append({"role": "assistant", "content": full_response})
 
-# Define the URL of the Blogging social app
-blog_app_url = "https://socialblogapp.netlify.app"
 
 # Add a button to navigate to the Blogging social app
 if st.button("Go to Blog App"):
    st.markdown(f"[Go to Blog App](https://socialblogapp.netlify.app)")
 
-# Add an Acknowledgment button to navigate back to the Blogging social app
-if st.button("Acknowledge", key='ack_button'):
-    st.markdown(f"[Go to Blog App](https://socialblogapp.netlify.app)")
